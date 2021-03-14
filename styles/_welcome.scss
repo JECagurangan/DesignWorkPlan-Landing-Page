@@ -1,0 +1,120 @@
+.welcome{
+    padding: 0px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+        padding: 5rem 2rem;
+    }
+
+    @media only screen and (min-width: 47.9375em){ //700
+        padding: 5rem 3rem;
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    @media only screen and (min-width: 1024px){ //laptop
+        padding: 5rem 5rem;
+    }
+
+    @media only screen and (min-width: 1440px){ //laptop
+        padding: 5rem 7rem;
+    }
+
+    @media only screen and (min-width: 1920px){ //laptop
+        padding: 5rem 19rem;
+        grid-template-columns: 0.6fr 1fr;
+    }
+
+    h2{
+        margin: 0;
+
+        font-size: 3.5rem;
+        font-weight: 600;
+        line-height: 4.25rem;
+
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+            font-size: 2.5rem;
+            line-height: 2.5rem;
+        }
+        
+        @media only screen and (min-width: 47.9375em){ //700
+            font-size: 2.25rem;
+            font-weight: 500;
+            line-height: 3rem;
+        }
+
+        @media only screen and (min-width: 1024px){
+            font-weight: 600;
+        }
+
+        @media only screen and (min-width: 1920px){ //laptop
+            font-size: 2.5rem;
+            font-weight: 800;
+            line-height: 2.625rem;
+        }
+    }
+
+    @media only screen and (min-width: 47.9375em){
+            div{
+                grid-row-start: 2;
+            }
+
+    }
+
+    p{
+        font-weight: 400;
+        line-height: 1.75rem;
+        font-size: 1.25rem;
+        line-height: 2.125rem;
+
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+            font-size: 1.15rem;
+            line-height: 1.8rem;
+        }
+
+        @media only screen and (min-width: 600px){
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+        }
+    }
+}
+
+.welcome-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-image{
+    background-image: url(https://www.designworkplan.com/media/site/c942acb59b-1614184647/background-projects-light-960x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    @media only screen and (min-width: 47.9375em){
+        background-image: url(https://www.designworkplan.com/media/site/c942acb59b-1614184647/background-projects-light-1152x.png);
+    }
+
+    @media only screen and (min-width: 1024px){
+        background-image: url(https://www.designworkplan.com/media/site/c942acb59b-1614184647/background-projects-light-1536x.png);
+    }
+
+    @media only screen and (min-width: 1440px){
+        background-image: url(https://www.designworkplan.com/media/site/c942acb59b-1614184647/background-projects-light-2160x.png);
+    }
+
+    @media only screen and (min-width: 1920){
+        background-image: url(https://www.designworkplan.com/media/site/c942acb59b-1614184647/background-projects-light-2880x.png);
+    }
+
+}
+
+
+
+

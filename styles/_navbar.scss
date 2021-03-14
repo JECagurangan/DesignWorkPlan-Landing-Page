@@ -1,0 +1,30 @@
+nav{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 12px 24px 12px 24px;
+
+    @media only screen and (min-width: 47.9375em){ //tablet
+        padding: 36px 48px 0px 48px;
+    }   
+
+    @media only screen and (min-width: 1024px){ //laptop
+        padding: 36px 80px 0px 80px;
+    }
+
+    @media only screen and (min-width: 1440px){ //laptop
+        padding: 36px 112px 0px 112px;
+    }
+
+    @media only screen and (min-width: 1920px){ //laptop
+        padding: 36px 300px 0px 300px;
+    }
+
+    h1{
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 0;
+    }
+    span{
+        color: red;
+    }
+}

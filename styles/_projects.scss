@@ -1,0 +1,188 @@
+.projects{
+    padding: 20px 20px;
+    background-color: #0f0f0f;
+
+    display: grid;
+    grid-template-rows: 84px repeat(18, 460px);
+    gap: 50px;
+
+    .labeling{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        span{
+            font-size: 1.125rem;
+            font-weight: 400;
+            line-height: 1.75rem;
+            color: #6f42c1;
+        }
+
+        h2{
+            margin: 0;
+
+            font-size: 1.5rem;
+            font-weight: 600;
+            line-height: 2.5rem;
+            
+        }
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+
+        background-color: #201d1d;
+        padding: 15px;
+
+        .card-bg{
+            height: 390px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .card1{
+            background-image: url("./images/zoom.jpg");
+        }
+
+        .card2{
+            background-image: url("./images/google.jpg");
+        }
+
+        .card3{
+            background-image: url("./images/lesbos.jpeg");
+        }
+
+        .card4{
+            background-image: url("./images/assen.jpg");
+        }
+
+        .card5{
+            background-image: url("./images/nest.jpg");
+        }
+
+        .card6{
+            background-image: url("./images/erasmus.jpg");
+        }
+
+        .card7{
+            background-image: url("./images/interconnect.jpg");
+        }
+
+        .card8{
+            background-image: url("./images/kinderdijk.jpg");
+        }
+
+        .card9{
+            background-image: url("./images/leefarbriek.jpg");
+        }
+
+        .card10{
+            background-image: url("./images/rai.jpg");
+        }
+
+        .card11{
+            background-image: url("./images/spaarne.jpg");
+        }
+
+        .card12{
+            background-image: url("./images/tilburg.jpg");
+        }
+
+        .card13{
+            background-image: url("./images/tue.jpg");
+        }
+
+        .card14{
+            background-image: url("./images/vu.jpg");
+        }
+
+        .card15{
+            background-image: url("./images/centrum.jpg");
+        }
+
+        .card16{
+            background-image: url("./images/bergen.jpg");
+        }
+
+        .card17{
+            background-image: url("./images/houten.jpg");
+        }
+
+        .card18{
+            background-image: url("./images/lelystad.jpg");
+        }
+
+
+        p{
+            color: white;
+            font-size: 1.3125rem;
+            font-weight: 600;
+            line-height: 2rem;
+
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+    .projects{
+        .labeling{
+            h2{
+                line-height: 2.2rem;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 47.9375em){
+    .projects{
+        padding: 80px 48px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 84px repeat(9, 460px);
+
+        .labeling{
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+            h2{
+                font-size: 2.25rem;
+                font-weight: 500;
+                line-height: 3rem;
+            }
+        }
+
+        .card{
+    
+            img{
+                width: 100%;
+            }
+    
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .projects{
+        padding: 80px 80px;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .projects{
+        padding: 80px 112px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .projects{
+        padding: 80px 312px;
+    }
+}

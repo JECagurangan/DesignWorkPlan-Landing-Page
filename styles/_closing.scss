@@ -1,0 +1,92 @@
+.closing{
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2, p{
+        margin-top: 0px;
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-weight: 600;
+        line-height: 2.5rem;
+    }
+
+    p{
+        font-size: 1.25rem;
+        line-height: 2.125rem;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+    .closing{
+        h2{
+            line-height: 2.2rem;
+            font-weight: 500;
+        }
+        p{
+            font-size: 1.15rem;
+            line-height: 1.8rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .closing{
+
+        p{
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+        }
+    }
+}
+
+@media (min-width: 47.9375em){
+    .closing{
+        padding: 80px 48px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h2, p{
+            margin-top: 0px;
+
+        }
+
+        h2{
+            font-size: 2.25rem;
+            font-weight: 500;
+            line-height: 3rem;
+        }
+
+        p{
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){ //laptop
+    .closing{
+        padding: 80px 80px;
+    }
+}
+
+@media only screen and (min-width: 1440px){ //laptop
+    .closing{
+        padding: 80px 112px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .closing{
+        padding: 80px 312px;
+    }
+}
